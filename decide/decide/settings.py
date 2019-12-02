@@ -72,7 +72,7 @@ MODULES = [
 ]
 
 #BASEURL = 'http://localhost:8000'
-BASEURL = 'http://heroku-meet-travis.herokuapp.com'
+BASEURL = 'https://decide-abdelha.herokuapp.com/'
 
 APIS = {
     'authentication': BASEURL,
@@ -82,7 +82,6 @@ APIS = {
     'mixnet': BASEURL,
     'postproc': BASEURL,
     'store': BASEURL,
-    'gateway': BASEURL,
     'visualizer': BASEURL,
     'voting': BASEURL,
 }
